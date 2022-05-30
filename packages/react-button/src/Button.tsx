@@ -1,3 +1,3 @@
-const Button = () => <button type="button">f</button>;
+const Button = () => <button type="button">faaaa</button>;
 
 export default Button;
