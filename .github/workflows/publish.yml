@@ -40,7 +40,7 @@ jobs:
             //npm.pkg.github.com/:_authToken=$NPM_TOKEN
           EOF
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.RRIOS_DEV_UPLOAD_TOKEN }}
       - run: yarn changeset:publish
 
   publish-success-slack:
