@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext ts,tsx .",
-    "test": "jest ."
+    "test": "jest . --passWithNoTests"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
