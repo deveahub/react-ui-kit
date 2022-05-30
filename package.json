@@ -1,0 +1,42 @@
+{
+  "name": "@rrios-dev/ui-kit",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build --filter=./apps/*",
+    "commit": "cz",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint --filter=./apps/*",
+    "prepare": "husky install",
+    "changeset:add": "yarn changeset",
+    "changeset:publish": "yarn changeset publish",
+    "changeset:version": "yarn changeset version",
+    "storybook:build": "turbo run build --filter=...storybook",
+    "storybook:start": "cd apps/storybook && yarn storybook",
+    "test": "turbo run test --filter=./apps/*"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.22.0",
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitizen": "^4.2.4",
+    "commitlint": "^16.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.17.3",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    'plugin:react/recommended',
+    'plugin:jest/recommended',
+    'plugin:prettier/recommended',
+    'airbnb-typescript',
+    'airbnb',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['react', '@typescript-eslint', 'simple-import-sort'],
+  rules: {
+    'prettier/prettier': ['error', { singleQuote: true }],
+    quotes: [2, 'single', { avoidEscape: true }],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
+    'react/function-component-definition': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'no-use-before-define': 'off',
+    'no-unused-vars': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['**/*.test.tsx', '**/*.test.ts'] },
+    ],
+    '@typescript-eslint/no-use-before-define': 'error',
+    '@typescript-eslint/no-unused-vars': 'warn',
+    'react/require-default-props': 'off',
+    'no-restricted-exports': 'off',
+    'import/prefer-default-export': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react/jsx-filename-extension': 'off',
+    'arrow-body-style': ['error', 'as-needed'],
+    'import/extensions': 'off',
+  },
+};

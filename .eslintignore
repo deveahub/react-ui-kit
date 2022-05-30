@@ -1,0 +1,10 @@
+**/node_modules
+**/dist
+**/storybook-static
+**/.turbo
+**/.eslintrc.js
+**/jest.config.ts
+**/.eslintrc.js
+**/.releaserc.js
+**/babel.config.js
+commitlint.config.js

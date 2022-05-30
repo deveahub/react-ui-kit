@@ -1,0 +1,108 @@
+name: PR
+on:
+  push:
+    branches: [main]
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    name: install
+    steps:
+      - uses: actions/checkout@v3
+      - uses: mskelton/setup-yarn@v1
+      - uses: actions/cache@v2
+        id: cache
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-modules-${{ github.sha }}-${{ github.run_number }}
+      - run: yarn --frozen-lockfile
+
+  publish:
+    name: publish
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/cache@v2
+        id: cache
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ github.sha }}-${{ github.run_number }}
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > ".npmrc"
+            email=roberto.rios.perea@outlook.com
+            //npm.pkg.github.com/:_authToken=$NPM_TOKEN
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: yarn changeset:publish
+
+  publish-success-slack:
+    needs: publish
+    if: ${{ success() }}
+    name: Failed publish notification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack Workflow Notification
+        uses: come25136/workflow-notification-for-slack@main
+        with:
+          include_jobs: true
+          repo_token: ${{secrets.RRIOS_DEV_GITHUB_REPOSITORY }}
+          slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          name: ${{github.repository}} - Published
+          icon_emoji: ':art:'
+
+  publish-failure-slack:
+    needs: publish
+    if: ${{ success() }}
+    name: Success publish notification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack Workflow Notification
+        uses: come25136/workflow-notification-for-slack@main
+        with:
+          include_jobs: true
+          repo_token: ${{secrets.RRIOS_DEV_GITHUB_REPOSITORY }}
+          slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          name: ${{github.repository}} - Published
+          icon_emoji: ':art:'
+
+  storybook:
+    name: storybook
+    if: ${{ success() }}
+    needs: publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v2
+        id: cache
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ github.sha }}-${{ github.run_number }}
+      - run: yarn storybook:build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        with:
+          branch: gh-pages
+          folder: ./apps/storybook/storybook-static
+
+  storybook-slack:
+    needs: storybook
+    if: ${{ always() }}
+    name: ${{github.repository}} - Storybook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack Workflow Notification
+        uses: come25136/workflow-notification-for-slack@main
+        with:
+          include_jobs: true
+          repo_token: ${{secrets.RRIOS_DEV_GITHUB_REPOSITORY }}
+          slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          name: ${{github.repository}} - Storybook
+          icon_emoji: ':art:'
