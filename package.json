@@ -7,6 +7,7 @@
     "packages/*"
   ],
   "scripts": {
+    "create:package": "templates-cli",
     "build": "turbo run build --filter=./apps/*",
     "commit": "cz",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -20,6 +21,7 @@
     "test": "turbo run test --filter=./apps/*"
   },
   "devDependencies": {
+    "@rrios-dev/templates-cli": "*",
     "@changesets/cli": "^2.22.0",
     "@commitlint/config-conventional": "^16.2.1",
     "commitizen": "^4.2.4",

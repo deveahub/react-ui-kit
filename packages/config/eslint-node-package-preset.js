@@ -1,11 +1,9 @@
-// TODO: make base to reuse between node and react config files
 module.exports = {
   env: {
     browser: true,
     es2021: true,
   },
   extends: [
-    'plugin:react/recommended',
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'airbnb-typescript',
@@ -19,7 +17,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-use-before-define': 'error',
@@ -36,11 +34,6 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',
     'prettier/prettier': ['error', { singleQuote: true }],
-    'react/function-component-definition': 'off',
-    'react/jsx-filename-extension': 'off',
-    'react/jsx-props-no-spreading': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'react/require-default-props': 'off',
     '@typescript-eslint/comma-dangle': 'error',
     '@typescript-eslint/comma-dangle': 'off',
     'comma-dangle': 'off',
@@ -48,12 +41,12 @@ module.exports = {
       'error',
       {
         'newlines-between': 'always',
-        "pathGroups": [
+        pathGroups: [
           {
             pattern: '@rrios-dev/**',
             group: 'internal',
-            position: 'after'
-          }
+            position: 'after',
+          },
         ],
         groups: [
           'builtin',
