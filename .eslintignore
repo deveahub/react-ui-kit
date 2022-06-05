@@ -8,3 +8,5 @@
 **/.releaserc.js
 **/babel.config.js
 commitlint.config.js
+
+**/templates/**

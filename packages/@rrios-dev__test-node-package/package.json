@@ -1,5 +1,5 @@
 {
-  "name": "@rrios-dev/styled",
+  "name": "@rrios-dev/test-node-package",
   "version": "0.1.0",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -14,38 +14,28 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext ts,tsx .",
-    "test": "jest . --passWithNoTests"
+    "test": "jest ."
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
-    "@babel/preset-react": "^7.17.12",
     "@babel/preset-typescript": "^7.17.12",
-    "@testing-library/react": "^13.3.0",
     "@types/jest": "^27.5.1",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "babel-jest": "^28.1.0",
     "config": "*",
-    "eslint": "<8.0.0",
-    "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.4.6",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint": "<8.0.0",
     "jest": "^28.1.0",
-    "jest-environment-jsdom": "^28.1.0",
-    "react": "^18.1.0",
-    "ts-node": "^10.8.1",
     "tsconfig": "*",
     "typescript": "^4.7.2"
-  },
-  "dependencies": {
-    "@stitches/react": "^1.2.8"
   }
 }

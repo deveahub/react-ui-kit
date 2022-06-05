@@ -5,8 +5,11 @@
   "main": "index.js",
   "license": "MIT",
   "files": [
-    "eslint-preset.js",
-    "releaserc.js"
+    "babel-node-package-preset.js",
+    "babel-react-package-preset.js",
+    "eslint-node-package-preset.js",
+    "eslint-react-package-preset.js",
+    "jest.react.config.ts"
   ],
   "dependencies": {
     "eslint-config-next": "^12.0.8",

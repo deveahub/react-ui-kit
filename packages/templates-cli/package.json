@@ -1,0 +1,52 @@
+{
+	"name": "@rrios-dev/templates-cli",
+	"version": "0.0.0",
+	"license": "MIT",
+	"main": "dist/main.js",
+	"bin": {
+		"templates-cli": "dist/main.js"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --watch",
+		"dev": "nodemon --watch src --exec node dist/main.js ",
+		"start": "tsc && node dist/main.js",
+		"pretest": "npm run build",
+		"postbuild": "(echo '#! /usr/bin/env node' && cat dist/main.js) > dist/main2.js && mv dist/main2.js dist/main.js && chmod +x dist/main.js"
+	},
+	"files": [
+		"dist/cli.js"
+	],
+	"dependencies": {
+		"ink": "^3.2.0",
+		"ink-select-input": "^4.2.1",
+		"ink-text-input": "^4.0.3",
+		"meow": "^9.0.0",
+		"react": "^18.1.0",
+		"undefined": "^0.1.0"
+	},
+	"devDependencies": {
+		"config": "*",
+		"@typescript-eslint/eslint-plugin": "^5.27.0",
+		"@typescript-eslint/parser": "^5.27.0",
+		"@types/react": "^18.0.9",
+		"chalk": "^4.1.2",
+		"eslint": "<8.0.0",
+		"eslint-config-airbnb": "19.0.4",
+		"eslint-config-airbnb-typescript": "^17.0.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-import-resolver-typescript": "^2.7.1",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jest": "^26.4.6",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.30.0",
+		"eslint-plugin-react-hooks": "^4.5.0",
+		"ink-testing-library": "^2.1.0",
+		"nodemon": "^2.0.16",
+		"typescript": "^4.7.2"
+	}
+}
