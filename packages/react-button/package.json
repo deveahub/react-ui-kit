@@ -1,6 +1,6 @@
 {
   "name": "@rrios-dev/react-button",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",
   "license": "MIT",
@@ -17,9 +17,11 @@
     "test": "jest ."
   },
   "peerDependencies": {
-    "react": "^18.x"
+    "react": "^18.x",
+    "@rrios-dev/styled": "*"
   },
   "devDependencies": {
+    "@rrios-dev/styled": "*",
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",

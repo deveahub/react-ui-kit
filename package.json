@@ -17,7 +17,7 @@
     "changeset:publish": "yarn changeset publish",
     "changeset:version": "yarn changeset version",
     "storybook:build": "turbo run build --filter=...storybook",
-    "storybook:start": "cd apps/storybook && yarn storybook",
+    "storybook": "cd apps/storybook && yarn storybook",
     "test": "turbo run test --filter=./apps/*"
   },
   "devDependencies": {
