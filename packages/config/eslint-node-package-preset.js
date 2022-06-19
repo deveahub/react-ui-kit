@@ -37,6 +37,8 @@ module.exports = {
     '@typescript-eslint/comma-dangle': 'error',
     '@typescript-eslint/comma-dangle': 'off',
     'comma-dangle': 'off',
+    'sort-keys': 'off',
+    "no-confusing-arrow": 'off',
     'import/order': [
       'error',
       {

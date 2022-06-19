@@ -1,7 +1,7 @@
 # @rrios-dev/styled
 
-## 0.1.0
+## 0.0.2
 
-### Minor Changes
+### Patch Changes
 
-- Add node packages and template creator
+- Add button component

@@ -1,38 +1,56 @@
-import Button from "@rrios-dev/react-button";
+import Button from '@rrios-dev/react-button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Example/Button",
+  title: 'Example/Button',
   component: Button,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
-    backgroundColor: { control: "color" },
+    onClick: { action: 'clicked' },
+    disabled: {
+      control: 'boolean',
+      default: false,
+    },
+    variant: {
+      control: 'select',
+      options: ['primary', 'foreground', 'green', 'orange', 'yellow'],
+      defaultValue: 'primary',
+    },
+    rounded: {
+      control: 'boolean',
+      defaultValue: true,
+    },
+    fullWidth: {
+      control: 'boolean',
+      defaultValue: false,
+    },
+    children: {
+      control: 'text',
+      defaultValue: 'Button',
+    },
   },
 };
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <Button {...args} />;
+export const Main = (args) => <Button {...args} />;
 
-export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
-  primary: true,
-  label: "Button 1",
+export const Variants = () => {
+  return (
+    <div style={{ display: 'flex', gap: 8}}>
+      <Button>Primary</Button>
+      <Button variant="foreground">Foreground</Button>
+      <Button variant="green">Green</Button>
+      <Button variant="orange">Orange</Button>
+      <Button variant="yellow">Yellow</Button>
+    </div>
+  );
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: "Button",
+export const FullWidth = () => {
+  return (
+    <div style={{ display: 'flex', gap: 8, flexDirection: 'column'}}>
+      <Button fullWidth>Button</Button>
+      <Button fullWidth>Button 2</Button>
+    </div>
+  );
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: "large",
-  label: "Button",
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: "small",
-  label: "Button",
-};
