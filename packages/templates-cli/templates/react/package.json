@@ -14,10 +14,11 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext ts,tsx .",
-    "test": "jest ."
+    "test": "jest . --passWithNoTests"
   },
   "peerDependencies": {
-    "react": "^18.x"
+    "react": "^18.x",
+    "@rrios-dev/styled": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
