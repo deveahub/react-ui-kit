@@ -1,6 +1,6 @@
 import Stack from '@rrios-dev/react-stack';
 export default {
-  title: 'Example/Stack',
+  title: 'Components/Stack',
   component: Stack,
   argTypes: {
     direction: {

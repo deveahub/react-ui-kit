@@ -41,6 +41,7 @@
   "dependencies": {
     "@rrios-dev/react-button": "*",
     "@rrios-dev/react-stack": "*",
+    "@rrios-dev/react-text": "*",
     "@rrios-dev/styled": "*"
   },
   "scripts": {
