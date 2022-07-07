@@ -14,7 +14,7 @@
 		"build": "tsc",
 		"build:watch": "tsc --watch",
 		"dev": "nodemon --watch src --exec node dist/main.js ",
-		"start": "tsc && node dist/main.js",
+		"start": "node dist/main.js",
 		"pretest": "npm run build",
 		"postbuild": "(echo '#! /usr/bin/env node' && cat dist/main.js) > dist/main2.js && mv dist/main2.js dist/main.js && chmod +x dist/main.js"
 	},

@@ -1,6 +1,6 @@
-import { ConfigType } from '@stitches/react/types/config';
+// import { ConfigType } from '@stitches/react/types/config';
 
-const theme: ConfigType.Theme = {
+const theme = {
   colors: {
     primary: '#AB43FC',
     'primary-dark-0': '#9511fb',
