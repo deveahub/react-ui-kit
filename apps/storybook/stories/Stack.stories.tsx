@@ -1,4 +1,5 @@
 import Stack from '@rrios-dev/react-stack';
+
 export default {
   title: 'Components/Stack',
   component: Stack,

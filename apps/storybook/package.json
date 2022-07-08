@@ -24,28 +24,33 @@
     "@babel/plugin-transform-shorthand-properties": "^7.16.7",
     "@babel/plugin-transform-spread": "^7.16.7",
     "@babel/preset-env": "^7.16.11",
-    "@babel/preset-typescript": "^7.16.7",
+    "@babel/preset-typescript": "^7.18.6",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
+    "@storybook/addon-storyshots": "^6.5.9",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.4",
     "babel-plugin-macros": "^3.1.0",
     "babel-plugin-polyfill-corejs3": "^0.5.2",
     "core-js": "^3.21.1",
+    "jest": "^28.1.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "dependencies": {
     "@rrios-dev/react-button": "*",
+    "@rrios-dev/react-input": "*",
     "@rrios-dev/react-stack": "*",
     "@rrios-dev/react-text": "*",
+    "config": "*",
     "@rrios-dev/styled": "*"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "test": "jest"
   }
 }
