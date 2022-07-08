@@ -1,9 +1,5 @@
 import Text, {
-  sizeOptions,
-  asOptions,
-  textAlignOptions,
-  decorationOptions,
-  weightOptions,
+  asOptions, decorationOptions, sizeOptions, weightOptions
 } from '@rrios-dev/react-text';
 import { defaultTheme } from '@rrios-dev/styled';
 

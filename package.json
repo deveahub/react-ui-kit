@@ -18,7 +18,7 @@
     "changeset:version": "yarn changeset version",
     "storybook:build": "turbo run build --filter=...storybook",
     "storybook": "cd apps/storybook && yarn storybook",
-    "test": "turbo run test --filter=./apps/*"
+    "test": "turbo run test"
   },
   "devDependencies": {
     "@rrios-dev/templates-cli": "*",
