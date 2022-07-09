@@ -18,7 +18,8 @@
     "changeset:version": "yarn changeset version",
     "storybook:build": "turbo run build --filter=...storybook",
     "storybook": "cd apps/storybook && yarn storybook",
-    "test": "turbo run test"
+    "test:packages": "turbo run test --filter=@rrios-dev/*",
+    "test:storybook": "yarn workspace storybook test"
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
