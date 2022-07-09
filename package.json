@@ -21,9 +21,9 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@rrios-dev/templates-cli": "*",
     "@changesets/cli": "^2.22.0",
     "@commitlint/config-conventional": "^16.2.1",
+    "@rrios-dev/templates-cli": "*",
     "commitizen": "^4.2.4",
     "commitlint": "^16.2.3",
     "cz-conventional-changelog": "^3.3.0",
