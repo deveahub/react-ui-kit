@@ -1,19 +1,33 @@
 {
+  "baseBranch": "origin/main",
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**", "storybook-static/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        "storybook-static/**"
+      ]
     },
     "test": {
-      "dependsOn": ["^test"],
+      "dependsOn": [
+        "^test"
+      ],
       "outputs": []
     },
     "lint": {
       "outputs": []
     },
     "deploy": {
-      "outputs": [""],
-      "dependsOn": ["build", "test", "lint"]
+      "outputs": [
+        ""
+      ],
+      "dependsOn": [
+        "build",
+        "test",
+        "lint"
+      ]
     },
     "dev": {
       "cache": false

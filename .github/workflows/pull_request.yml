@@ -44,7 +44,8 @@ jobs:
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ github.sha }}-${{ github.run_number }}
-      - run: yarn test
+      - run: yarn test:packages
+      - run: yarn test:storybook
 
   pr-success-slack:
     needs: [lint, test]
