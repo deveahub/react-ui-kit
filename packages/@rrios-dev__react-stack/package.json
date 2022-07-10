@@ -1,6 +1,6 @@
 {
     "name": "@rrios-dev/react-stack",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "./src/index.tsx",
     "types": "./src/index.tsx",
     "license": "MIT",
