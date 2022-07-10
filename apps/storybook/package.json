@@ -44,6 +44,8 @@
     "@rrios-dev/react-button": "*",
     "@rrios-dev/react-input": "*",
     "@rrios-dev/react-stack": "*",
+    "@rrios-dev/react-form-control": "*",
+    "@rrios-dev/react-checkbox": "*",
     "@rrios-dev/react-text": "*",
     "config": "*",
     "@rrios-dev/styled": "*"

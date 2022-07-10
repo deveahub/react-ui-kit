@@ -1,5 +1,5 @@
 import Text, {
-  asOptions, decorationOptions, sizeOptions, weightOptions
+  asVariant, decorationVariant, sizeVariant, weightVariant
 } from '@rrios-dev/react-text';
 import { defaultTheme } from '@rrios-dev/styled';
 
@@ -9,7 +9,7 @@ export default {
   argTypes: {
     size: {
       control: 'select',
-      options: Object.keys(sizeOptions),
+      options: Object.keys(sizeVariant),
       defaultValue: '0',
     },
     textAlign: {
@@ -19,16 +19,16 @@ export default {
     },
     as: {
       control: 'select',
-      options: Object.keys(asOptions),
+      options: Object.keys(asVariant),
       defaultValue: 'p',
     },
     decoration: {
       control: 'select',
-      options: Object.keys(decorationOptions),
+      options: Object.keys(decorationVariant),
       defaultValue: undefined,
     },
     children: {
-      control: 'string',
+      control: 'text',
       defaultValue: "I'm Text component",
     },
     color: {
@@ -38,7 +38,7 @@ export default {
     },
     weight: {
       control: 'select',
-      options: Object.keys(weightOptions),
+      options: Object.keys(weightVariant),
       default: 'text',
     },
   },
@@ -49,7 +49,7 @@ export const Main = ({ children, ...args }) => (
 );
 
 export const Variants = ({ children }) =>
-  Object.keys(asOptions).map((option) => {
+  Object.keys(asVariant).map((option) => {
     return (
       <Text key={option} as={option as any}>
         ({option}) {children}
@@ -58,7 +58,7 @@ export const Variants = ({ children }) =>
   });
 
 export const Sizes = ({ children }) =>
-  Object.keys(sizeOptions).map((size) => {
+  Object.keys(sizeVariant).map((size) => {
     return (
       <Text key={size} size={size as any}>
         ({size}) {children}
@@ -76,7 +76,7 @@ export const Colors = ({ children }) =>
   });
 
 export const Weight = ({ children }) =>
-  Object.keys(weightOptions).map((weight) => {
+  Object.keys(weightVariant).map((weight) => {
     return (
       <Text key={weight} weight={weight as any}>
         ({weight}) {children}
