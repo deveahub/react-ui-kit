@@ -299,14 +299,14 @@ Object {
   >
     <div>
       <input
-        class="c-eThuFa c-eThuFa-eFKUPz-size-sm"
+        class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
         type="checkbox"
       />
     </div>
   </body>,
   "container": <div>
     <input
-      class="c-eThuFa c-eThuFa-eFKUPz-size-sm"
+      class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
       type="checkbox"
     />
   </div>,
@@ -380,7 +380,7 @@ Object {
           sm
         </p>
         <input
-          class="c-eThuFa c-eThuFa-eFKUPz-size-sm"
+          class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
           type="checkbox"
         />
       </div>
@@ -393,7 +393,7 @@ Object {
           md
         </p>
         <input
-          class="c-eThuFa c-eThuFa-kqiFyi-size-md"
+          class="c-ZuBeb c-ZuBeb-kqiFyi-size-md"
           type="checkbox"
         />
       </div>
@@ -406,7 +406,7 @@ Object {
           lg
         </p>
         <input
-          class="c-eThuFa c-eThuFa-izxAXi-size-lg"
+          class="c-ZuBeb c-ZuBeb-izxAXi-size-lg"
           type="checkbox"
         />
       </div>
@@ -422,7 +422,7 @@ Object {
         sm
       </p>
       <input
-        class="c-eThuFa c-eThuFa-eFKUPz-size-sm"
+        class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
         type="checkbox"
       />
     </div>
@@ -435,7 +435,7 @@ Object {
         md
       </p>
       <input
-        class="c-eThuFa c-eThuFa-kqiFyi-size-md"
+        class="c-ZuBeb c-ZuBeb-kqiFyi-size-md"
         type="checkbox"
       />
     </div>
@@ -448,7 +448,7 @@ Object {
         lg
       </p>
       <input
-        class="c-eThuFa c-eThuFa-izxAXi-size-lg"
+        class="c-ZuBeb c-ZuBeb-izxAXi-size-lg"
         type="checkbox"
       />
     </div>
@@ -515,45 +515,13 @@ Object {
   >
     <div>
       <div
-        class="c-dhzjXW c-dhzjXW-ioTNZo-css"
-      >
-        <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
-        >
-          <div
-            class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
-          >
-            <input
-              class="c-eThuFa c-eThuFa-eFKUPz-size-sm"
-              type="checkbox"
-            />
-            <label
-              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
-            >
-              Input label
-            </label>
-          </div>
-          <span
-            class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
-          >
-            Help for user
-          </span>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="c-dhzjXW c-dhzjXW-ioTNZo-css"
-    >
-      <div
         class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
       >
         <div
           class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
         >
           <input
-            class="c-eThuFa c-eThuFa-eFKUPz-size-sm"
+            class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
             type="checkbox"
           />
           <label
@@ -568,6 +536,30 @@ Object {
           Help for user
         </span>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+    >
+      <div
+        class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
+      >
+        <input
+          class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
+          type="checkbox"
+        />
+        <label
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+        >
+          Input label
+        </label>
+      </div>
+      <span
+        class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+      >
+        Help for user
+      </span>
     </div>
   </div>,
   "debug": [Function],
@@ -739,6 +731,145 @@ Object {
 }
 `;
 
+exports[`Storyshots Components/FormControl Form Select 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    class="sb-show-nopreview"
+  >
+    <div>
+      <div
+        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+      >
+        <div
+          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        >
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          >
+            Input label
+          </label>
+          <select
+            class="c-ciXJzL"
+          >
+            <option
+              selected=""
+              value=""
+            >
+              Choose element
+            </option>
+            <option>
+              Element 1
+            </option>
+            <option>
+              Element 2
+            </option>
+            <option>
+              Element 3
+            </option>
+          </select>
+        </div>
+        <span
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+        >
+          Help for user
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+    >
+      <div
+        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+      >
+        <label
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+        >
+          Input label
+        </label>
+        <select
+          class="c-ciXJzL"
+        >
+          <option
+            selected=""
+            value=""
+          >
+            Choose element
+          </option>
+          <option>
+            Element 1
+          </option>
+          <option>
+            Element 2
+          </option>
+          <option>
+            Element 3
+          </option>
+        </select>
+      </div>
+      <span
+        class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+      >
+        Help for user
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Storyshots Components/Input Main 1`] = `
 Object {
   "asFragment": [Function],
@@ -757,6 +888,109 @@ Object {
       class="c-bpAsxd c-bpAsxd-hpLwHC-variant-default"
       placeholder="Enter text"
     />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Storyshots Components/Select Main 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    class="sb-show-nopreview"
+  >
+    <div>
+      <select
+        class="c-ciXJzL"
+      >
+        <option
+          selected=""
+          value=""
+        >
+          Choose element
+        </option>
+        <option>
+          Element 1
+        </option>
+        <option>
+          Element 2
+        </option>
+        <option>
+          Element 3
+        </option>
+      </select>
+    </div>
+  </body>,
+  "container": <div>
+    <select
+      class="c-ciXJzL"
+    >
+      <option
+        selected=""
+        value=""
+      >
+        Choose element
+      </option>
+      <option>
+        Element 1
+      </option>
+      <option>
+        Element 2
+      </option>
+      <option>
+        Element 3
+      </option>
+    </select>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

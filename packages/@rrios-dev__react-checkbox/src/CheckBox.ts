@@ -33,6 +33,7 @@ const CheckBox = styled('input', {
   cursor: 'pointer',
   transition: '$0',
   margin: 0,
+  outlineColor: '$primary-dark-2',
 
   '&:hover': {
     backgroundColor: '$foreground-dark-0',
