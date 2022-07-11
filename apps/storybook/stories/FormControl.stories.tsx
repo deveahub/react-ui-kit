@@ -1,7 +1,8 @@
-import FormControl, { FormLabel } from '@rrios-dev/react-form-control';
-import Input from '@rrios-dev/react-input';
+import FormCheckBoxComponent from '@rrios-dev/react-form-checkbox';
+import FormControl from '@rrios-dev/react-form-control';
+import FormSelectComponent from '@rrios-dev/react-form-select';
+import FormInputComponent from '@rrios-dev/react-form-input';
 import Stack from '@rrios-dev/react-stack';
-import CheckBox from '@rrios-dev/react-checkbox';
 
 export default {
   title: 'Components/FormControl',
@@ -27,30 +28,38 @@ export default {
   },
 };
 
-export const FormInput = ({ children, error, label, ...args }: any) => (
+export const FormInput = (props: any) => (
   <Stack
     css={{
       width: '100%',
       maxWidth: 500,
     }}
   >
-    <FormControl {...args} error={error}>
-      <FormLabel error={Boolean(error)}>{label}</FormLabel>
-      <Input error={Boolean(error)} />
-    </FormControl>
+    <FormInputComponent {...props} />
   </Stack>
 );
 
-export const FormCheckbox = ({ children, error, label, ...args }: any) => (
-  <Stack
-    css={{
-      width: '100%',
-      maxWidth: 500,
-    }}
-  >
-    <FormControl {...args} error={error} direction="row">
-      <CheckBox error={Boolean(error)} />
-      <FormLabel error={Boolean(error)}>{label}</FormLabel>
-    </FormControl>
-  </Stack>
+export const FormCheckbox = (props: any) => (
+  <FormCheckBoxComponent {...props} />
+);
+
+export const FormSelect = (props: any) => (
+  <FormSelectComponent
+    emptyText="Choose element"
+    options={[
+      {
+        text: 'Element 1',
+        value: 'element-1',
+      },
+      {
+        text: 'Element 2',
+        value: 'element-2',
+      },
+      {
+        text: 'Element 3',
+        value: 'element-3',
+      },
+    ]}
+    {...props}
+  />
 );
