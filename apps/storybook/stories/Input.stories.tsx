@@ -1,4 +1,4 @@
-import Input from '@rrios-dev/react-input';
+import Input, { variantVariant } from '@rrios-dev/react-input';
 
 export default {
   title: 'Components/Input',
@@ -18,6 +18,15 @@ export default {
     },
     onKeyPress: {
       action: 'onKeyPress',
+    },
+    placeholder: {
+      control: 'text',
+      defaultValue: 'Enter text'
+    },
+    variant: {
+      control: 'select',
+      options: Object.keys(variantVariant),
+      defaultValue: 'default',
     },
   },
 };

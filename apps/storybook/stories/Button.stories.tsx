@@ -7,7 +7,7 @@ export default {
     onClick: { action: 'clicked' },
     disabled: {
       control: 'boolean',
-      default: false,
+      defaultValue: false,
     },
     variant: {
       control: 'select',

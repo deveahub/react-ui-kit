@@ -22,20 +22,20 @@ const Button = styled('button', {
         borderColor: '$primary-dark-0',
       },
       foreground: {
-        backgroundColor: '$foreground',
-        borderColor: '$foreground-dark-0',
+        backgroundColor: '$foreground-dark-0',
+        borderColor: '$foreground-dark-1',
       },
       green: {
-        backgroundColor: '$green',
-        borderColor: '$green-dark-0',
+        backgroundColor: '$green-dark-0',
+        borderColor: '$green-dark-1',
       },
       orange: {
-        backgroundColor: '$orange',
-        borderColor: '$orange-dark-0',
+        backgroundColor: '$orange-dark-0',
+        borderColor: '$orange-dark-1',
       },
       yellow: {
-        backgroundColor: '$yellow',
-        borderColor: '$yellow-dark-0',
+        backgroundColor: '$yellow-dark-0',
+        borderColor: '$yellow-dark-1',
       },
     },
     fullWidth: {
@@ -50,7 +50,7 @@ const Button = styled('button', {
     },
     disabled: {
       true: {
-        color: '$text-light-2',
+        color: '$bg-dark-0',
         filter: 'brightness(70%)',
         cursor: 'not-allowed',
       },

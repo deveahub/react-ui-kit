@@ -1,30 +1,45 @@
 import { ComponentProps, styled, defaultTheme } from '@rrios-dev/styled';
 
-export const asOptions = {
+export const asVariant = {
   p: {
     fontSize: '$0',
+    lineHeight: '1em',
   },
   h1: {
     fontSize: '$4',
+    lineHeight: '$h1',
   },
   h2: {
     fontSize: '$3',
+    lineHeight: '$h2',
   },
   h3: {
     fontSize: '$2',
+    lineHeight: '$h3',
   },
   h4: {
     fontSize: '$1',
+    lineHeight: '$h4',
   },
   h5: {
     fontSize: '$0',
+    lineHeight: '$h5',
   },
   h6: {
     fontSize: '$-1',
+    lineHeight: '$h6',
+  },
+  label: {
+    fontSize: '$0',
+    lineHeight: '1em',
+  },
+  span: {
+    fontSize: '$0',
+    lineHeight: '1em',
   },
 } as const;
 
-export const sizeOptions = {
+export const sizeVariant = {
   '-3': {
     fontSize: '$-3',
   },
@@ -51,7 +66,7 @@ export const sizeOptions = {
   },
 } as const;
 
-export const textAlignOptions = {
+export const textAlignVariant = {
   center: {
     textAlign: 'center',
   },
@@ -63,7 +78,7 @@ export const textAlignOptions = {
   },
 } as const;
 
-export const weightOptions = {
+export const weightVariant = {
   light: {
     fontWeight: '$light',
   },
@@ -78,7 +93,7 @@ export const weightOptions = {
   },
 } as const;
 
-export const decorationOptions = {
+export const decorationVariant = {
   underline: {
     textDecoration: 'underline',
   },
@@ -91,11 +106,11 @@ const StyledText = styled('p', {
     weight: 'regular',
   },
   variants: {
-    decoration: decorationOptions,
-    as: asOptions,
-    size: sizeOptions,
-    textAlign: textAlignOptions,
-    weight: weightOptions,
+    decoration: decorationVariant,
+    as: asVariant,
+    size: sizeVariant,
+    textAlign: textAlignVariant,
+    weight: weightVariant,
   },
 });
 
