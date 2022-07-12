@@ -24,7 +24,7 @@ const Container = styled('div', {
 });
 
 export interface FormControlsProps extends ComponentProps<typeof Container> {
-  error?: string;
+  error?: string | undefined;
   helperText?: string;
   children: ReactNode;
 }

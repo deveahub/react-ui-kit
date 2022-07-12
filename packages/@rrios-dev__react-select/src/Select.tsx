@@ -34,7 +34,9 @@ const Select = ({ options, emptyText, ...props }: SelectProps) => (
   <StyledSelect {...props} defaultValue="">
     {!props.value && <option value="">{emptyText}</option>}
     {options.map(({ value, text }) => (
-      <option key={value}>{text}</option>
+      <option key={value} value={value}>
+        {text}
+      </option>
     ))}
   </StyledSelect>
 );

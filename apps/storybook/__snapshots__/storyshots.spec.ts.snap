@@ -299,14 +299,14 @@ Object {
   >
     <div>
       <input
-        class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
+        class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
         type="checkbox"
       />
     </div>
   </body>,
   "container": <div>
     <input
-      class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
+      class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
       type="checkbox"
     />
   </div>,
@@ -380,7 +380,7 @@ Object {
           sm
         </p>
         <input
-          class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
+          class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
           type="checkbox"
         />
       </div>
@@ -393,7 +393,7 @@ Object {
           md
         </p>
         <input
-          class="c-ZuBeb c-ZuBeb-kqiFyi-size-md"
+          class="c-kavqrr c-kavqrr-kqiFyi-size-md"
           type="checkbox"
         />
       </div>
@@ -406,7 +406,7 @@ Object {
           lg
         </p>
         <input
-          class="c-ZuBeb c-ZuBeb-izxAXi-size-lg"
+          class="c-kavqrr c-kavqrr-izxAXi-size-lg"
           type="checkbox"
         />
       </div>
@@ -422,7 +422,7 @@ Object {
         sm
       </p>
       <input
-        class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
+        class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
         type="checkbox"
       />
     </div>
@@ -435,7 +435,7 @@ Object {
         md
       </p>
       <input
-        class="c-ZuBeb c-ZuBeb-kqiFyi-size-md"
+        class="c-kavqrr c-kavqrr-kqiFyi-size-md"
         type="checkbox"
       />
     </div>
@@ -448,7 +448,7 @@ Object {
         lg
       </p>
       <input
-        class="c-ZuBeb c-ZuBeb-izxAXi-size-lg"
+        class="c-kavqrr c-kavqrr-izxAXi-size-lg"
         type="checkbox"
       />
     </div>
@@ -521,11 +521,13 @@ Object {
           class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
         >
           <input
-            class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
+            class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
+            id=":r0:"
             type="checkbox"
           />
           <label
             class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            for=":r0:"
           >
             Input label
           </label>
@@ -546,11 +548,13 @@ Object {
         class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
       >
         <input
-          class="c-ZuBeb c-ZuBeb-eFKUPz-size-sm"
+          class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
+          id=":r0:"
           type="checkbox"
         />
         <label
           class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          for=":r0:"
         >
           Input label
         </label>
@@ -634,11 +638,13 @@ Object {
           >
             <label
               class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+              for=":r1:"
             >
               Input label
             </label>
             <input
-              class="c-bpAsxd c-bpAsxd-hpLwHC-variant-default"
+              class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
+              id=":r1:"
             />
           </div>
           <span
@@ -662,11 +668,13 @@ Object {
         >
           <label
             class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            for=":r1:"
           >
             Input label
           </label>
           <input
-            class="c-bpAsxd c-bpAsxd-hpLwHC-variant-default"
+            class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
+            id=":r1:"
           />
         </div>
         <span
@@ -746,11 +754,13 @@ Object {
         >
           <label
             class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            for=":r2:"
           >
             Input label
           </label>
           <select
             class="c-ciXJzL"
+            id=":r2:"
           >
             <option
               selected=""
@@ -758,13 +768,19 @@ Object {
             >
               Choose element
             </option>
-            <option>
+            <option
+              value="element-1"
+            >
               Element 1
             </option>
-            <option>
+            <option
+              value="element-2"
+            >
               Element 2
             </option>
-            <option>
+            <option
+              value="element-3"
+            >
               Element 3
             </option>
           </select>
@@ -786,11 +802,13 @@ Object {
       >
         <label
           class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          for=":r2:"
         >
           Input label
         </label>
         <select
           class="c-ciXJzL"
+          id=":r2:"
         >
           <option
             selected=""
@@ -798,13 +816,19 @@ Object {
           >
             Choose element
           </option>
-          <option>
+          <option
+            value="element-1"
+          >
             Element 1
           </option>
-          <option>
+          <option
+            value="element-2"
+          >
             Element 2
           </option>
-          <option>
+          <option
+            value="element-3"
+          >
             Element 3
           </option>
         </select>
@@ -870,6 +894,253 @@ Object {
 }
 `;
 
+exports[`Storyshots Components/Formik Main 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    class="sb-show-nopreview"
+  >
+    <div>
+      <form
+        action="#"
+        class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-ioTNZo-css"
+      >
+        <div
+          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        >
+          <div
+            class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          >
+            <label
+              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+              for=":r3:"
+            >
+              Name
+            </label>
+            <input
+              class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
+              id=":r3:"
+              name="name"
+              value=""
+            />
+          </div>
+          <span
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+          >
+            Enter your name
+          </span>
+        </div>
+        <div
+          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        >
+          <div
+            class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          >
+            <select
+              class="c-ciXJzL"
+              id=":r4:"
+              name="option"
+            >
+              <option
+                value=""
+              >
+                Choose element
+              </option>
+              <option
+                value="element-1"
+              >
+                Element 1
+              </option>
+              <option
+                value="element-2"
+              >
+                Element 2
+              </option>
+              <option
+                value="element-3"
+              >
+                Element 3
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        >
+          <div
+            class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
+          >
+            <input
+              class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
+              id=":r5:"
+              name="agreeTerms"
+              type="checkbox"
+              value="false"
+            />
+            <label
+              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+              for=":r5:"
+            >
+              Agree terms
+            </label>
+          </div>
+        </div>
+        <button
+          class="c-gCjpHZ c-gCjpHZ-kPDsqb-variant-primary c-gCjpHZ-kfXiog-rounded-true c-gCjpHZ-fJQHxA-disabled-false"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      action="#"
+      class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-ioTNZo-css"
+    >
+      <div
+        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+      >
+        <div
+          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        >
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            for=":r3:"
+          >
+            Name
+          </label>
+          <input
+            class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
+            id=":r3:"
+            name="name"
+            value=""
+          />
+        </div>
+        <span
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+        >
+          Enter your name
+        </span>
+      </div>
+      <div
+        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+      >
+        <div
+          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        >
+          <select
+            class="c-ciXJzL"
+            id=":r4:"
+            name="option"
+          >
+            <option
+              value=""
+            >
+              Choose element
+            </option>
+            <option
+              value="element-1"
+            >
+              Element 1
+            </option>
+            <option
+              value="element-2"
+            >
+              Element 2
+            </option>
+            <option
+              value="element-3"
+            >
+              Element 3
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+      >
+        <div
+          class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
+        >
+          <input
+            class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
+            id=":r5:"
+            name="agreeTerms"
+            type="checkbox"
+            value="false"
+          />
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            for=":r5:"
+          >
+            Agree terms
+          </label>
+        </div>
+      </div>
+      <button
+        class="c-gCjpHZ c-gCjpHZ-kPDsqb-variant-primary c-gCjpHZ-kfXiog-rounded-true c-gCjpHZ-fJQHxA-disabled-false"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Storyshots Components/Input Main 1`] = `
 Object {
   "asFragment": [Function],
@@ -878,14 +1149,14 @@ Object {
   >
     <div>
       <input
-        class="c-bpAsxd c-bpAsxd-hpLwHC-variant-default"
+        class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
         placeholder="Enter text"
       />
     </div>
   </body>,
   "container": <div>
     <input
-      class="c-bpAsxd c-bpAsxd-hpLwHC-variant-default"
+      class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
       placeholder="Enter text"
     />
   </div>,
@@ -959,13 +1230,19 @@ Object {
         >
           Choose element
         </option>
-        <option>
+        <option
+          value="element-1"
+        >
           Element 1
         </option>
-        <option>
+        <option
+          value="element-2"
+        >
           Element 2
         </option>
-        <option>
+        <option
+          value="element-3"
+        >
           Element 3
         </option>
       </select>
@@ -981,13 +1258,19 @@ Object {
       >
         Choose element
       </option>
-      <option>
+      <option
+        value="element-1"
+      >
         Element 1
       </option>
-      <option>
+      <option
+        value="element-2"
+      >
         Element 2
       </option>
-      <option>
+      <option
+        value="element-3"
+      >
         Element 3
       </option>
     </select>

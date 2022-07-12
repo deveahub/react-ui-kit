@@ -1,4 +1,4 @@
-import { styled } from '@rrios-dev/styled';
+import { ComponentProps, styled } from '@rrios-dev/styled';
 
 export const sizeVariant = {
   sm: {
@@ -29,7 +29,8 @@ const CheckBox = styled('input', {
   borderRadius: '$3',
   backgroundColor: '$foreground-light-0',
   borderStyle: 'solid',
-  borderColor: '$foreground',
+  borderWidth: '$0',
+  borderColor: '$foreground-dark-0',
   cursor: 'pointer',
   transition: '$0',
   margin: 0,
@@ -68,18 +69,6 @@ const CheckBox = styled('input', {
     error: {
       true: {
         borderColor: '$error',
-        backgroundColor: '$error',
-        '&:hover': {
-          backgroundColor: '$error',
-        },
-        '&:active': {
-          borderColor: '$error-dark-1',
-          backgroundColor: '$error-dark-1',
-        },
-        '&:checked': {
-          borderColor: '$error',
-          backgroundColor: '$error',
-        },
       },
     },
   },
@@ -88,5 +77,7 @@ const CheckBox = styled('input', {
 CheckBox.defaultProps = {
   type: 'checkbox',
 };
+
+export type CheckBoxProps = ComponentProps<typeof CheckBox>;
 
 export default CheckBox;

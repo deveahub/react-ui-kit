@@ -1,9 +1,10 @@
-import { styled } from '@rrios-dev/styled';
+import { ComponentProps, styled } from '@rrios-dev/styled';
 
 export const variantVariant = {
   default: {
     borderColor: '$foreground-dark-0',
     borderStyle: 'solid',
+    borderWidth: '$0',
     outlineColor: '$primary-dark-2',
     p: 1,
     fontSize: '$0',
@@ -32,5 +33,7 @@ const Input = styled('input', {
     },
   },
 });
+
+export type InputProps = ComponentProps<typeof Input>;
 
 export default Input;
