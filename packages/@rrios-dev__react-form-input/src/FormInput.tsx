@@ -1,17 +1,28 @@
 import FormControl, { FormLabel } from '@rrios-dev/react-form-control';
-import Input from '@rrios-dev/react-input';
+import Input, { InputProps } from '@rrios-dev/react-input';
 import { ComponentProps } from '@rrios-dev/styled';
+import { useId } from 'react';
 
-interface FormInputProps
-  extends Omit<ComponentProps<typeof FormControl>, 'children'> {
-  label?: string;
-}
+export type FormInputProps = Omit<
+  ComponentProps<typeof FormControl>,
+  'children'
+> &
+  Omit<InputProps, 'error'> & {
+    label?: string;
+  };
 
-const FormInput = ({ error, label, ...props }: FormInputProps) => (
-  <FormControl {...props} error={error}>
-    {label && <FormLabel error={Boolean(error)}>{label}</FormLabel>}
-    <Input error={Boolean(error)} />
-  </FormControl>
-);
+const FormInput = ({ error, label, helperText, ...props }: FormInputProps) => {
+  const id = useId();
+  return (
+    <FormControl helperText={helperText} error={error}>
+      {label && (
+        <FormLabel htmlFor={id} error={Boolean(error)}>
+          {label}
+        </FormLabel>
+      )}
+      <Input {...props} id={id} error={Boolean(error)} />
+    </FormControl>
+  );
+};
 
 export default FormInput;

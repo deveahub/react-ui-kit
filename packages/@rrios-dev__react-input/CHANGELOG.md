@@ -1,5 +1,11 @@
 # @rrios-dev/react-input
 
+## 0.0.3
+
+### Patch Changes
+
+- formik components v1
+
 ## 0.0.2
 
 ### Patch Changes
