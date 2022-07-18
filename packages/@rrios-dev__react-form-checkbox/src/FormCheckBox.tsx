@@ -19,11 +19,16 @@ const FormCheckBox = ({
 }: FormCheckBoxProps) => {
   const id = useId();
   return (
-    <FormControl helperText={helperText} error={error} direction="row">
+    <FormControl
+      helperText={helperText}
+      error={error}
+      childrenContainerProps={{
+        direction: 'row',
+        alignItems: 'center',
+      }}
+    >
       <CheckBox {...props} id={id} error={Boolean(error)} />
-      <FormLabel htmlFor={id} error={Boolean(error)}>
-        {label}
-      </FormLabel>
+      <FormLabel htmlFor={id}>{label}</FormLabel>
     </FormControl>
   );
 };

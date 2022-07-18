@@ -515,10 +515,10 @@ Object {
   >
     <div>
       <div
-        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
+          class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-ejCoEP-direction-row"
         >
           <input
             class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
@@ -542,10 +542,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+      class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
     >
       <div
-        class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
+        class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-ejCoEP-direction-row"
       >
         <input
           class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
@@ -631,10 +631,10 @@ Object {
         class="c-dhzjXW c-dhzjXW-ioTNZo-css"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
         >
           <div
-            class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+            class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
           >
             <label
               class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
@@ -661,10 +661,10 @@ Object {
       class="c-dhzjXW c-dhzjXW-ioTNZo-css"
     >
       <div
-        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
         >
           <label
             class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
@@ -739,6 +739,217 @@ Object {
 }
 `;
 
+exports[`Storyshots Components/FormControl Form Radio 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    class="sb-show-nopreview"
+  >
+    <div>
+      <div
+        class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+      >
+        <div
+          class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+        >
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          >
+            Input label
+          </label>
+          <div
+            class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+          >
+            <div
+              class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+            >
+              <input
+                class="c-ezUtqA"
+                for=":r2:"
+                name="element"
+                type="radio"
+                value="element-1"
+              />
+              <label
+                class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                id=":r2:"
+              >
+                Element 1
+              </label>
+            </div>
+            <div
+              class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+            >
+              <input
+                class="c-ezUtqA"
+                for=":r3:"
+                name="element"
+                type="radio"
+                value="element-2"
+              />
+              <label
+                class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                id=":r3:"
+              >
+                Element 2
+              </label>
+            </div>
+            <div
+              class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+            >
+              <input
+                class="c-ezUtqA"
+                for=":r4:"
+                name="element"
+                type="radio"
+                value="element-3"
+              />
+              <label
+                class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                id=":r4:"
+              >
+                Element 3
+              </label>
+            </div>
+          </div>
+        </div>
+        <span
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+        >
+          Help for user
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+    >
+      <div
+        class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+      >
+        <label
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+        >
+          Input label
+        </label>
+        <div
+          class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+        >
+          <div
+            class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+          >
+            <input
+              class="c-ezUtqA"
+              for=":r2:"
+              name="element"
+              type="radio"
+              value="element-1"
+            />
+            <label
+              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+              id=":r2:"
+            >
+              Element 1
+            </label>
+          </div>
+          <div
+            class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+          >
+            <input
+              class="c-ezUtqA"
+              for=":r3:"
+              name="element"
+              type="radio"
+              value="element-2"
+            />
+            <label
+              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+              id=":r3:"
+            >
+              Element 2
+            </label>
+          </div>
+          <div
+            class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+          >
+            <input
+              class="c-ezUtqA"
+              for=":r4:"
+              name="element"
+              type="radio"
+              value="element-3"
+            />
+            <label
+              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+              id=":r4:"
+            >
+              Element 3
+            </label>
+          </div>
+        </div>
+      </div>
+      <span
+        class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+      >
+        Help for user
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Storyshots Components/FormControl Form Select 1`] = `
 Object {
   "asFragment": [Function],
@@ -747,20 +958,20 @@ Object {
   >
     <div>
       <div
-        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
         >
           <label
             class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
-            for=":r2:"
+            for=":r5:"
           >
             Input label
           </label>
           <select
             class="c-ciXJzL"
-            id=":r2:"
+            id=":r5:"
           >
             <option
               selected=""
@@ -795,20 +1006,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+      class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
     >
       <div
-        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
       >
         <label
           class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
-          for=":r2:"
+          for=":r5:"
         >
           Input label
         </label>
         <select
           class="c-ciXJzL"
-          id=":r2:"
+          id=":r5:"
         >
           <option
             selected=""
@@ -903,23 +1114,23 @@ Object {
     <div>
       <form
         action="#"
-        class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-ioTNZo-css"
+        class="c-dhzjXW c-dhzjXW-fbjddq-spacing-3 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-ioTNZo-css"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
         >
           <div
-            class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+            class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
           >
             <label
               class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
-              for=":r3:"
+              for=":r6:"
             >
               Name
             </label>
             <input
               class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
-              id=":r3:"
+              id=":r6:"
               name="name"
               value=""
             />
@@ -931,14 +1142,88 @@ Object {
           </span>
         </div>
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
         >
           <div
-            class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+            class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
           >
+            <label
+              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            >
+              Choose element
+            </label>
+            <div
+              class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-egHnsK-direction-row"
+            >
+              <div
+                class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+              >
+                <input
+                  class="c-ezUtqA"
+                  for=":r7:"
+                  name="radio"
+                  type="radio"
+                  value="element-1"
+                />
+                <label
+                  class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                  id=":r7:"
+                >
+                  Element 1
+                </label>
+              </div>
+              <div
+                class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+              >
+                <input
+                  class="c-ezUtqA"
+                  for=":r8:"
+                  name="radio"
+                  type="radio"
+                  value="element-2"
+                />
+                <label
+                  class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                  id=":r8:"
+                >
+                  Element 2
+                </label>
+              </div>
+              <div
+                class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+              >
+                <input
+                  class="c-ezUtqA"
+                  for=":r9:"
+                  name="radio"
+                  type="radio"
+                  value="element-3"
+                />
+                <label
+                  class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                  id=":r9:"
+                >
+                  Element 3
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
+        >
+          <div
+            class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
+          >
+            <label
+              class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+              for=":ra:"
+            >
+              Choose select element
+            </label>
             <select
               class="c-ciXJzL"
-              id=":r4:"
+              id=":ra:"
               name="option"
             >
               <option
@@ -963,23 +1248,28 @@ Object {
               </option>
             </select>
           </div>
+          <span
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+          >
+            Helper text
+          </span>
         </div>
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
         >
           <div
-            class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
+            class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-ejCoEP-direction-row"
           >
             <input
               class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
-              id=":r5:"
+              id=":rb:"
               name="agreeTerms"
               type="checkbox"
               value="false"
             />
             <label
               class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
-              for=":r5:"
+              for=":rb:"
             >
               Agree terms
             </label>
@@ -997,23 +1287,23 @@ Object {
   "container": <div>
     <form
       action="#"
-      class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-ioTNZo-css"
+      class="c-dhzjXW c-dhzjXW-fbjddq-spacing-3 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-ioTNZo-css"
     >
       <div
-        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
         >
           <label
             class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
-            for=":r3:"
+            for=":r6:"
           >
             Name
           </label>
           <input
             class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
-            id=":r3:"
+            id=":r6:"
             name="name"
             value=""
           />
@@ -1025,14 +1315,88 @@ Object {
         </span>
       </div>
       <div
-        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+          class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
         >
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          >
+            Choose element
+          </label>
+          <div
+            class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column c-dhzjXW-egHnsK-direction-row"
+          >
+            <div
+              class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+            >
+              <input
+                class="c-ezUtqA"
+                for=":r7:"
+                name="radio"
+                type="radio"
+                value="element-1"
+              />
+              <label
+                class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                id=":r7:"
+              >
+                Element 1
+              </label>
+            </div>
+            <div
+              class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+            >
+              <input
+                class="c-ezUtqA"
+                for=":r8:"
+                name="radio"
+                type="radio"
+                value="element-2"
+              />
+              <label
+                class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                id=":r8:"
+              >
+                Element 2
+              </label>
+            </div>
+            <div
+              class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+            >
+              <input
+                class="c-ezUtqA"
+                for=":r9:"
+                name="radio"
+                type="radio"
+                value="element-3"
+              />
+              <label
+                class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+                id=":r9:"
+              >
+                Element 3
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
+      >
+        <div
+          class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
+        >
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            for=":ra:"
+          >
+            Choose select element
+          </label>
           <select
             class="c-ciXJzL"
-            id=":r4:"
+            id=":ra:"
             name="option"
           >
             <option
@@ -1057,23 +1421,28 @@ Object {
             </option>
           </select>
         </div>
+        <span
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-span c-cyFBRX-iEkYDt-size--1 c-cyFBRX-dYJjti-weight-regular c-cyFBRX-ihSObmv-css"
+        >
+          Helper text
+        </span>
       </div>
       <div
-        class="c-cyqVhR c-cyqVhR-iTKOFX-direction-column"
+        class="c-dhzjXW c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-iTKOFX-direction-column"
       >
         <div
-          class="c-cyqVhR c-cyqVhR-cPPfON-direction-row"
+          class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-kiHjTX-spacing-015 c-dhzjXW-ejCoEP-direction-row"
         >
           <input
             class="c-kavqrr c-kavqrr-eFKUPz-size-sm"
-            id=":r5:"
+            id=":rb:"
             name="agreeTerms"
             type="checkbox"
             value="false"
           />
           <label
             class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
-            for=":r5:"
+            for=":rb:"
           >
             Agree terms
           </label>
@@ -1159,6 +1528,276 @@ Object {
       class="c-bpAsxd c-bpAsxd-kDHgga-variant-default"
       placeholder="Enter text"
     />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Storyshots Components/Radio Group 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    class="sb-show-nopreview"
+  >
+    <div>
+      <div
+        class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+      >
+        <div
+          class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+        >
+          <input
+            class="c-ezUtqA"
+            for=":rc:"
+            name="element"
+            type="radio"
+            value="element-1"
+          />
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            id=":rc:"
+          >
+            Element 1
+          </label>
+        </div>
+        <div
+          class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+        >
+          <input
+            class="c-ezUtqA"
+            for=":rd:"
+            name="element"
+            type="radio"
+            value="element-2"
+          />
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            id=":rd:"
+          >
+            Element 2
+          </label>
+        </div>
+        <div
+          class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+        >
+          <input
+            class="c-ezUtqA"
+            for=":re:"
+            name="element"
+            type="radio"
+            value="element-3"
+          />
+          <label
+            class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+            id=":re:"
+          >
+            Element 3
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="c-dhzjXW c-dhzjXW-cBQSbj-spacing-2 c-dhzjXW-iTKOFX-direction-column"
+    >
+      <div
+        class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+      >
+        <input
+          class="c-ezUtqA"
+          for=":rc:"
+          name="element"
+          type="radio"
+          value="element-1"
+        />
+        <label
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          id=":rc:"
+        >
+          Element 1
+        </label>
+      </div>
+      <div
+        class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+      >
+        <input
+          class="c-ezUtqA"
+          for=":rd:"
+          name="element"
+          type="radio"
+          value="element-2"
+        />
+        <label
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          id=":rd:"
+        >
+          Element 2
+        </label>
+      </div>
+      <div
+        class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+      >
+        <input
+          class="c-ezUtqA"
+          for=":re:"
+          name="element"
+          type="radio"
+          value="element-3"
+        />
+        <label
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          id=":re:"
+        >
+          Element 3
+        </label>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Storyshots Components/Radio Main 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    class="sb-show-nopreview"
+  >
+    <div>
+      <div
+        class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+      >
+        <input
+          class="c-ezUtqA"
+          for=":rf:"
+          type="radio"
+        />
+        <label
+          class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+          id=":rf:"
+        >
+          Element 1
+        </label>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="c-dhzjXW c-dhzjXW-jroWjL-alignItems-center c-dhzjXW-imMwcw-spacing-1"
+    >
+      <input
+        class="c-ezUtqA"
+        for=":rf:"
+        type="radio"
+      />
+      <label
+        class="c-cyFBRX c-cyFBRX-qrXLX-as-label c-cyFBRX-dYJjti-weight-regular c-cyFBRX-icyFBRX-css"
+        id=":rf:"
+      >
+        Element 1
+      </label>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -2,6 +2,7 @@ import { createStitches } from '@stitches/react';
 
 import defaultTheme from './theme';
 import utils from './utils';
+import breakpoints from './breakpoints';
 
 export type {
   ComponentProps,
@@ -24,4 +25,5 @@ export const {
 } = createStitches({
   theme: defaultTheme,
   utils,
+  media: breakpoints,
 });

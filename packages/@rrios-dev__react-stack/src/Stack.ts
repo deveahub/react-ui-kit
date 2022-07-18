@@ -1,4 +1,4 @@
-import { styled } from '@rrios-dev/styled';
+import { ComponentProps, styled } from '@rrios-dev/styled';
 
 const Stack = styled('div', {
   display: 'flex',
@@ -42,6 +42,9 @@ const Stack = styled('div', {
       1: {
         gap: 1,
       },
+      '015': {
+        gap: 1.5,
+      },
       2: {
         gap: 2,
       },
@@ -71,5 +74,7 @@ const Stack = styled('div', {
     },
   },
 });
+
+export type StackProps = ComponentProps<typeof Stack>;
 
 export default Stack;
