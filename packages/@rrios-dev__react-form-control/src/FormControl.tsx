@@ -1,42 +1,25 @@
-import { ComponentProps, styled } from '@rrios-dev/styled';
 import { ReactNode } from 'react';
 import Text from '@rrios-dev/react-text';
+import Stack, { StackProps } from '@rrios-dev/react-stack';
 
-const Container = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  flex: 1,
-  gap: 1,
-  defaultVariants: {
-    direction: 'column',
-  },
-  variants: {
-    direction: {
-      row: {
-        flexDirection: 'row',
-        alignItems: 'center',
-      },
-      column: {
-        flexDirection: 'column',
-      },
-    },
-  },
-});
-
-export interface FormControlsProps extends ComponentProps<typeof Container> {
+export interface FormControlsProps extends StackProps {
   error?: string | undefined;
   helperText?: string;
   children: ReactNode;
+  childrenContainerProps?: StackProps;
 }
 
 const FormControl = ({
   error,
   helperText,
   children,
+  childrenContainerProps,
   ...props
 }: FormControlsProps) => (
-  <Container>
-    <Container {...props}>{children}</Container>
+  <Stack spacing="015" direction="column" {...props}>
+    <Stack spacing="015" direction="column" {...childrenContainerProps}>
+      {children}
+    </Stack>
     {helperText && !error && (
       <Text as="span" size="-1" color="foreground-dark-2">
         {helperText}
@@ -47,7 +30,7 @@ const FormControl = ({
         {error}
       </Text>
     )}
-  </Container>
+  </Stack>
 );
 
 export default FormControl;

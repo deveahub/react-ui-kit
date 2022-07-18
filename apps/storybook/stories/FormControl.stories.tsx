@@ -2,7 +2,9 @@ import FormCheckBoxComponent from '@rrios-dev/react-form-checkbox';
 import FormControl from '@rrios-dev/react-form-control';
 import FormSelectComponent from '@rrios-dev/react-form-select';
 import FormInputComponent from '@rrios-dev/react-form-input';
+import FormRadioComponent from '@rrios-dev/react-form-radio';
 import Stack from '@rrios-dev/react-stack';
+import { useState } from 'react';
 
 export default {
   title: 'Components/FormControl',
@@ -24,6 +26,9 @@ export default {
     helperText: {
       control: 'text',
       defaultValue: 'Help for user',
+    },
+    onChange: {
+      action: 'onChange'
     },
   },
 };
@@ -63,3 +68,32 @@ export const FormSelect = (props: any) => (
     {...props}
   />
 );
+
+export const FormRadio = (props: any) => {
+  const [value, setValue] = useState('');
+  return (
+  <FormRadioComponent
+    name="element"
+    label="Choose element"
+    value={value}
+    options={[
+      {
+        text: 'Element 1',
+        value: 'element-1',
+      },
+      {
+        text: 'Element 2',
+        value: 'element-2',
+      },
+      {
+        text: 'Element 3',
+        value: 'element-3',
+      },
+    ]}
+    {...props}
+    onChange={(e) => {
+      setValue(e.target.value)
+      props.onChange(e)
+    }}
+  />
+)};

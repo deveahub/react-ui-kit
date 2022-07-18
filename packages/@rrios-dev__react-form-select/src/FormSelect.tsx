@@ -15,12 +15,11 @@ const FormSelect = ({
   error,
   label,
   helperText,
-  direction,
   ...props
 }: FormSelectProps) => {
   const id = useId();
   return (
-    <FormControl helperText={helperText} error={error} direction={direction}>
+    <FormControl helperText={helperText} error={error}>
       {label && (
         <FormLabel htmlFor={id} error={Boolean(error)}>
           {label}

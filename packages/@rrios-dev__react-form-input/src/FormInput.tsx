@@ -14,7 +14,14 @@ export type FormInputProps = Omit<
 const FormInput = ({ error, label, helperText, ...props }: FormInputProps) => {
   const id = useId();
   return (
-    <FormControl helperText={helperText} error={error}>
+    <FormControl
+      helperText={helperText}
+      error={error}
+      spacing="015"
+      childrenContainerProps={{
+        spacing: '015',
+      }}
+    >
       {label && (
         <FormLabel htmlFor={id} error={Boolean(error)}>
           {label}

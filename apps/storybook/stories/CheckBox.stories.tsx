@@ -5,9 +5,6 @@ import Text from '@rrios-dev/react-text';
 export default {
   title: 'Components/Checkbox',
   component: CheckBox,
-  parameters: {
-    controls: {},
-  },
   argTypes: {
     checked: {
       control: 'boolean',
