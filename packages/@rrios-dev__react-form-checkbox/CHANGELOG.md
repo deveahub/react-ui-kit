@@ -1,5 +1,15 @@
 # @rrios-dev/react-form-checkbox
 
+## 0.0.4
+
+### Patch Changes
+
+- upgrade packages
+- Updated dependencies
+  - @rrios-dev/react-checkbox@0.0.3
+  - @rrios-dev/react-form-control@0.0.4
+  - @rrios-dev/styled@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes

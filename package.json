@@ -22,14 +22,14 @@
     "test:storybook": "yarn workspace storybook test"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.22.0",
-    "@commitlint/config-conventional": "^16.2.1",
+    "@changesets/cli": "^2.23.2",
+    "@commitlint/config-conventional": "^17.0.3",
     "@rrios-dev/templates-cli": "*",
-    "commitizen": "^4.2.4",
-    "commitlint": "^16.2.3",
+    "commitizen": "^4.2.5",
+    "commitlint": "^17.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.4",
-    "prettier": "^2.5.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
     "turbo": "latest"
   },
   "engines": {
