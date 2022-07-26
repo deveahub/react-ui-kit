@@ -1,5 +1,11 @@
 # @rrios-dev/styled
 
+## 0.0.5
+
+### Patch Changes
+
+- Add fieldset component and add .gitignore
+
 ## 0.0.4
 
 ### Patch Changes

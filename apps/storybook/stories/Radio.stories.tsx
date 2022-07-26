@@ -1,5 +1,6 @@
 import Radio, { RadioGroup } from '@rrios-dev/react-radio';
 import { useState } from 'react';
+import React from 'react';
 
 export default {
   title: 'Components/Radio',

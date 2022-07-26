@@ -11,7 +11,7 @@
     "build": "turbo run build --filter=./apps/*",
     "commit": "cz",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "turbo run lint --filter=./apps/*",
+    "lint": "turbo run lint",
     "prepare": "husky install",
     "changeset:add": "yarn changeset",
     "changeset:publish": "yarn changeset publish",
