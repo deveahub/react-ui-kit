@@ -58,6 +58,7 @@
     "@rrios-dev/react-select": "*",
     "@rrios-dev/react-stack": "*",
     "@rrios-dev/react-text": "*",
+    "@rrios-dev/react-fieldset": "*",
     "@rrios-dev/styled": "*",
     "config": "*",
     "formik": "^2.2.9",

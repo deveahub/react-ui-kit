@@ -1,5 +1,15 @@
 # @rrios-dev/react-form-checkbox
 
+## 0.0.5
+
+### Patch Changes
+
+- Add fieldset component and add .gitignore
+- Updated dependencies
+  - @rrios-dev/react-checkbox@0.0.4
+  - @rrios-dev/react-form-control@0.0.5
+  - @rrios-dev/styled@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

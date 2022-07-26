@@ -2,7 +2,9 @@ import { BASE_UNIT } from './constants';
 
 import type * as Stitches from '@stitches/react';
 
-const getValueWithBaseUnit = <T>(v: T) => typeof v === 'number' ? v * BASE_UNIT : v;
+const getValueWithBaseUnit = <T>(v: T) =>
+  // eslint-disable-next-line implicit-arrow-linebreak
+  typeof v === 'number' ? v * BASE_UNIT : v;
 
 const utils = {
   p: (value: Stitches.PropertyValue<'padding'>) => ({

@@ -1,4 +1,5 @@
 import Select from '@rrios-dev/react-select';
+import React from 'react';
 
 export default {
   title: 'Components/Select',
