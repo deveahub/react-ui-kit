@@ -33,7 +33,8 @@
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "babel-jest": "^28.1.0",
-    "config": "*",
+    "@rrios-dev/node-config": "*",
+    "@rrios-dev/node-tsconfig": "*",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -49,7 +50,6 @@
     "jest": "^28.1.0",
     "react": "^18.1.0",
     "ts-node": "^10.8.1",
-    "tsconfig": "*",
     "typescript": "^4.7.2"
   }
 }

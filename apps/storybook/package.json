@@ -60,7 +60,7 @@
     "@rrios-dev/react-text": "*",
     "@rrios-dev/react-fieldset": "*",
     "@rrios-dev/styled": "*",
-    "config": "*",
+    "@rrios-dev/node-config": "*",
     "formik": "^2.2.9",
     "yup": "^0.32.11"
   },

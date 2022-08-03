@@ -34,7 +34,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.30.7",
 		"@typescript-eslint/parser": "^5.30.7",
 		"chalk": "^5.0.1",
-		"config": "*",
+		"@rrios-dev/node-config": "*",
 		"eslint": "8.20.0",
 		"eslint-config-airbnb": "19.0.4",
 		"eslint-config-airbnb-typescript": "^17.0.0",

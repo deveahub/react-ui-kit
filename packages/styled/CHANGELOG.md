@@ -1,5 +1,11 @@
 # @rrios-dev/styled
 
+## 0.0.6
+
+### Patch Changes
+
+- publish config packages
+
 ## 0.0.5
 
 ### Patch Changes

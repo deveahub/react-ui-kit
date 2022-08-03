@@ -1,0 +1,10 @@
+# @rrios-dev/react-fieldset
+
+## 0.0.2
+
+### Patch Changes
+
+- publish config packages
+- Updated dependencies
+  - @rrios-dev/react-stack@0.0.5
+  - @rrios-dev/styled@0.0.6

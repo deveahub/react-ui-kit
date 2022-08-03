@@ -1,5 +1,13 @@
 # @rrios-dev/react-select
 
+## 0.0.5
+
+### Patch Changes
+
+- publish config packages
+- Updated dependencies
+  - @rrios-dev/styled@0.0.6
+
 ## 0.0.4
 
 ### Patch Changes

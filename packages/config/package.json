@@ -1,6 +1,5 @@
 {
-  "name": "config",
-  "private": true,
+  "name": "@rrios-dev/node-config",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
