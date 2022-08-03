@@ -2,6 +2,13 @@
   "name": "@rrios-dev/node-config",
   "version": "0.0.1",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrios-dev/react-ui-kit"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/rrios-dev"
+  },
   "license": "MIT",
   "files": [
     "babel-node-package-preset.js",
