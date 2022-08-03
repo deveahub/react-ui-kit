@@ -1,4 +1,4 @@
-import jestConfig from 'config/jest.react.config';
+import jestConfig from '@rrios-dev/node-config/jest.react.config';
 
 export default {
     ...jestConfig,

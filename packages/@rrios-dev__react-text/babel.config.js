@@ -1,1 +1,1 @@
-module.exports = require('config/babel-react-package-preset');
+module.exports = require('@rrios-dev/node-config/babel-react-package-preset');
