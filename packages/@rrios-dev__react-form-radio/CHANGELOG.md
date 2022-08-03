@@ -1,5 +1,15 @@
 # @rrios-dev/react-form-input
 
+## 0.0.5
+
+### Patch Changes
+
+- replace config imports
+- Updated dependencies
+  - @rrios-dev/react-form-control@0.0.7
+  - @rrios-dev/react-radio@0.0.5
+  - @rrios-dev/styled@0.0.7
+
 ## 0.0.4
 
 ### Patch Changes

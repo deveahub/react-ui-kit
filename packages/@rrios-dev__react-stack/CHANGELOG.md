@@ -1,5 +1,13 @@
 # @rrios-dev/react-stack
 
+## 0.0.6
+
+### Patch Changes
+
+- replace config imports
+- Updated dependencies
+  - @rrios-dev/styled@0.0.7
+
 ## 0.0.5
 
 ### Patch Changes

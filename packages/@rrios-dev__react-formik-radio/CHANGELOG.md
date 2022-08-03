@@ -1,5 +1,13 @@
 # @rrios-dev/react-formik-radio
 
+## 0.0.5
+
+### Patch Changes
+
+- replace config imports
+- Updated dependencies
+  - @rrios-dev/react-form-radio@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

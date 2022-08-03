@@ -7,7 +7,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/rrios-dev"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "files": [
     "base.json",

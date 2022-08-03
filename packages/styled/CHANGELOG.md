@@ -1,5 +1,11 @@
 # @rrios-dev/styled
 
+## 0.0.7
+
+### Patch Changes
+
+- replace config imports
+
 ## 0.0.6
 
 ### Patch Changes

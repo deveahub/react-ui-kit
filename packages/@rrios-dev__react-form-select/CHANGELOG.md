@@ -1,5 +1,15 @@
 # @rrios-dev/react-form-select
 
+## 0.0.7
+
+### Patch Changes
+
+- replace config imports
+- Updated dependencies
+  - @rrios-dev/react-form-control@0.0.7
+  - @rrios-dev/react-select@0.0.6
+  - @rrios-dev/styled@0.0.7
+
 ## 0.0.6
 
 ### Patch Changes

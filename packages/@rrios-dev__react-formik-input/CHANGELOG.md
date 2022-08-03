@@ -1,5 +1,13 @@
 # @rrios-dev/react-formik-input
 
+## 0.0.5
+
+### Patch Changes
+
+- replace config imports
+- Updated dependencies
+  - @rrios-dev/react-form-input@0.0.7
+
 ## 0.0.4
 
 ### Patch Changes
