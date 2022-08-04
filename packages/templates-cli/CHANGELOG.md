@@ -1,5 +1,11 @@
 # @rrios-dev/templates-cli
 
+## 0.0.4
+
+### Patch Changes
+
+- implement postbuild env
+
 ## 0.0.3
 
 ### Patch Changes
