@@ -22,7 +22,8 @@
 		"dev": "nodemon --watch src --exec node dist/main.js ",
 		"start": "node dist/main.js",
 		"pretest": "npm run build",
-		"postbuild": "node scripts/copyTemplates.js",
+		"copy:templates": "node scripts/copyTemplates.js",
+		"postbuild": "(echo '#! /usr/bin/env node' && cat dist/main.js) > dist/main2.js && mv dist/main2.js dist/main.js && chmod +x dist/main.js && npm run copy:templates",
 		"prepublishOnly": "npm run build"
 	},
 	"files": [
