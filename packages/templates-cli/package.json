@@ -9,6 +9,13 @@
 	"engines": {
 		"node": ">=10"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rrios-dev/react-ui-kit"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/rrios-dev"
+	},
 	"scripts": {
 		"build": "tsc",
 		"build:watch": "tsc --watch",
