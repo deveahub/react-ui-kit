@@ -21,7 +21,7 @@ async function copyDir(src: string, dest: string) {
   }
 }
 const TEMPLATES_DIR = path.resolve(__dirname, '..', '..', 'templates');
-const PACKAGES_DIR = path.resolve(__dirname, '..', '..', '..');
+const PACKAGES_DIR = path.resolve(process.env.PWD, 'packages');
 
 const normalizePackageNameToDirectory = (packageName: string) => {
   const output = packageName.replace(/\//g, '__');
@@ -61,3 +61,11 @@ const createPackage = async (state: State['data']) => {
 };
 
 export default createPackage;
+
+declare global {
+  namespace NodeJS {
+    interface ProcessEnv {
+      PWD: string;
+    }
+  }
+}

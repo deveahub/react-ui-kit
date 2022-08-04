@@ -1,5 +1,11 @@
 # @rrios-dev/templates-cli
 
+## 0.0.6
+
+### Patch Changes
+
+- fix packages path definition
+
 ## 0.0.5
 
 ### Patch Changes

@@ -7,7 +7,7 @@
     "packages/*"
   ],
   "scripts": {
-    "create:package": "yarn workspace @rrios-dev/templates-cli start",
+    "create:package": "templates-cli",
     "build": "turbo run build --filter=./apps/*",
     "commit": "cz",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
