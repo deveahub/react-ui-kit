@@ -1,6 +1,6 @@
 {
 	"name": "@rrios-dev/templates-cli",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"license": "MIT",
 	"main": "dist/main.js",
 	"bin": {
@@ -22,7 +22,7 @@
 		"dev": "nodemon --watch src --exec node dist/main.js ",
 		"start": "node dist/main.js",
 		"pretest": "npm run build",
-		"postbuild": "(echo '#! /usr/bin/env node' && cat dist/main.js) > dist/main2.js && mv dist/main2.js dist/main.js && chmod +x dist/main.js",
+		"postbuild": "node scripts/copyTemplates.js",
 		"prepublishOnly": "npm run build"
 	},
 	"files": [
