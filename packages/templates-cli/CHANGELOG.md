@@ -1,5 +1,11 @@
 # @rrios-dev/templates-cli
 
+## 0.0.5
+
+### Patch Changes
+
+- include templates into root package
+
 ## 0.0.4
 
 ### Patch Changes
