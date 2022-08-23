@@ -1,0 +1,4 @@
+{
+  "extends": "@rrios-dev/node-tsconfig/nextjs.json",
+  "include": ["src"]
+}

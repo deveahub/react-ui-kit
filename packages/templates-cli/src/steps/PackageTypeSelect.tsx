@@ -15,6 +15,10 @@ const ITEMS: Array<Item<PackageType>> = [
     label: 'Node',
     value: 'node',
   },
+  {
+    label: 'NextJS',
+    value: 'nextjs',
+  },
 ];
 
 const PackageTypeSelect = () => {

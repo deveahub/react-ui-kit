@@ -1,5 +1,11 @@
 # @rrios-dev/templates-cli
 
+## 0.0.7
+
+### Patch Changes
+
+- Add nextjs to templates-cli
+
 ## 0.0.6
 
 ### Patch Changes

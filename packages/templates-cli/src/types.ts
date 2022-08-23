@@ -1,4 +1,4 @@
-export type PackageType = 'react' | 'node';
+export type PackageType = 'react' | 'node' | 'nextjs';
 
 export type Step = 'package-type' | 'package-name';
 

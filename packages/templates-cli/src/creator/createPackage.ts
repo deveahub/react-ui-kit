@@ -22,6 +22,13 @@ async function copyDir(src: string, dest: string) {
 }
 const TEMPLATES_DIR = path.resolve(__dirname, '..', '..', 'templates');
 const PACKAGES_DIR = path.resolve(process.env.PWD, 'packages');
+const APPS_DIR = path.resolve(process.env.PWD, 'apps');
+
+const DIR_TO_TYPE = {
+  nextjs: APPS_DIR,
+  node: PACKAGES_DIR,
+  react: PACKAGES_DIR,
+} as const;
 
 const normalizePackageNameToDirectory = (packageName: string) => {
   const output = packageName.replace(/\//g, '__');
@@ -29,11 +36,11 @@ const normalizePackageNameToDirectory = (packageName: string) => {
 };
 
 const changeNameOnPackageJSON = async (
-  { packageName }: State['data'],
+  { packageName, packageType }: State['data'],
   normalizedPackageName: string
 ) => {
   const packageDir = path.resolve(
-    PACKAGES_DIR,
+    DIR_TO_TYPE[packageType],
     normalizedPackageName,
     'package.json'
   );
@@ -55,7 +62,7 @@ const createPackage = async (state: State['data']) => {
   );
   await copyDir(
     `${TEMPLATES_DIR}/${state.packageType}`,
-    `${PACKAGES_DIR}/${normalizedPackageName}`
+    `${DIR_TO_TYPE[state.packageType]}/${normalizedPackageName}`
   );
   await changeNameOnPackageJSON(state, normalizedPackageName);
 };
